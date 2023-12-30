@@ -16,7 +16,6 @@ CREATE TABLE PlayerStats
   three_points_goals INT NOT NULL,
   free_shots INT NOT NULL,
   field_goals INT NOT NULL,
-  player_id INT NOT NULL,
   PRIMARY KEY (rank_id),
   FOREIGN KEY (player_id) REFERENCES Player(player_id)
 );
